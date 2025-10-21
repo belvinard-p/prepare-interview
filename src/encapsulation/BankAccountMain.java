@@ -11,7 +11,11 @@ public class BankAccountMain {
         BankAccount myAccount = new BankAccount("123456789", 10000.0);
         myAccount.deposit(5000.0);
         myAccount.withdraw(2000.0);
+        myAccount.withdraw(15000.0);
+        myAccount.setAccountNumber("946781");
 
         LOGGER.log(Level.INFO, "Current balance: {0}", myAccount.getBalance());
+        LOGGER.log(Level.INFO, "Account number: {0}", myAccount.getAccountNumber());
+
     }
 }
