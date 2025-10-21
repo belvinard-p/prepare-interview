@@ -1,5 +1,8 @@
 public class Product {
-  private String prductName;
-  private double productPrice;
-  private int productQuantity;
+  private String name;
+  private double price;
+  private int quantity;
+
+  public void setProductName(String name){
+  }
 }
