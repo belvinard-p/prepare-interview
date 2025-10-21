@@ -80,3 +80,27 @@ The goal of these exercises is to demonstrate mastery of the three core principl
 **Rule Check:** Do NOT create a private field named `area`. The area must only be calculated and returned when `getArea()` is called. This hides the computation details from external users.
 
 **Test:** Create a `Rectangle`, set the length to 10.0 and width to 5.0. Call `getArea()` and print the result (50.0)
+
+
+Goal: Track and protect stock quantity.
+Fields:
+
+productName
+
+price
+
+quantity
+
+Rules:
+
+Price must be positive.
+
+Quantity cannot be negative.
+
+Add methods:
+
+addStock(int qty)
+
+sell(int qty) (only if qty ≤ available stock)
+
+✅ Extra: Add a getInventoryValue() method → price * quantity
